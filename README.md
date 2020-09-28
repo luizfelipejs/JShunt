@@ -22,8 +22,7 @@ Esse projeto criei com o intuito de aprender o typeORM, a ideia e bem simples vo
 // Body:
 {
   "name": "product",
-  "description": "lorem Impsum",
-  "url": "www.test.com"
+  "description": "lorem Impsum"
 }
 
 // Rota de listagem de produto 
@@ -31,8 +30,7 @@ Esse projeto criei com o intuito de aprender o typeORM, a ideia e bem simples vo
 // Retorno
 {
   "name": "product",
-  "description": "lorem Impsum",
-  "url": "www.test.com"
+  "description": "lorem Impsum"
 }
 
 // Rota de update de produto 
@@ -41,8 +39,7 @@ Esse projeto criei com o intuito de aprender o typeORM, a ideia e bem simples vo
 {
   "id": 1
   "name": "product",
-  "description": "lorem Impsum",
-  "url": "www.test.com"
+  "description": "lorem Impsum"
 }
 
 // Rota de registro de produto 
