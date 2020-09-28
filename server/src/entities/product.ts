@@ -10,9 +10,6 @@ class product extends BaseEntity{
 
     @Column()
     description: string
-
-    @Column()
-    url: string
 }
 
 export default product;
