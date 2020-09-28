@@ -9,3 +9,44 @@ Esse projeto criei com o intuito de aprender o typeORM, a ideia e bem simples vo
 - Css 
 - Javascript  
 
+### Como iniciar o projeto 
+
+```
+>>> yarn start
+```
+
+### Rotas do backend 
+```
+// Rota de registro de produto 
+// Metodo: POST rota: localhost:8080/product
+// Body:
+{
+  "name": "product",
+  "description": "lorem Impsum",
+  "url": "www.test.com"
+}
+
+// Rota de listagem de produto 
+// Metodo: Get rota: localhost:8080/product
+// Retorno
+{
+  "name": "product",
+  "description": "lorem Impsum",
+  "url": "www.test.com"
+}
+
+// Rota de update de produto 
+// Metodo: PUT rota: localhost:8080/product
+// Body To Update:
+{
+  "id": 1
+  "name": "product",
+  "description": "lorem Impsum",
+  "url": "www.test.com"
+}
+
+// Rota de registro de produto 
+// Metodo: DELETE rota: localhost:8080/product/:id
+// Retorno:
+"Status: 200 no body"
+```
