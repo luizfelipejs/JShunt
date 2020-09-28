@@ -4,12 +4,11 @@ import productModel from "../entities/product";
 export default new (class productController {
     async create(request: Request, response: Response) {
         try {
-            const { name, description, url } = request.body;
+            const { name, description } = request.body;
 
             const product = productModel.create({
                 name,
                 description,
-                url,
             });
 
             await product.save();
@@ -47,7 +46,6 @@ export default new (class productController {
             productModel.merge(product, {
                 name: update.name,
                 description: update.description,
-                url: update.url,
             });
 
             await productModel.save(product);
