@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #E5E6F0;
+    -webkit-font-smoothing: antialiased;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/*Header style*/
+.header-product {
+    background: rgb(63, 79, 224);
+    margin-bottom: 1rem;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: #fff;
+}
+
+/*Product style*/
+
+.product {
+    background: #fff;
+    padding: 10px;
+    width: calc(100% - 2rem);
+    margin-bottom: 1rem;
+}
+
+
+.product-title {
+    position: relative;
+    margin-left: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.product-description {
+    position: relative;
+    top: -1rem;
+}
+
+/*Product list*/
+.list-products {
+    position: relative;
+    list-style: none;
+    margin-left: 3rem;
+}
+
+/*Navigation page*/
+.navigation-button {
+    border: none;
+    background: rgb(63, 79, 224);
+    color: #fff;
+    width: 150px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#next {
+    position: relative;
+    float: right;
+    top: -0.1rem;
+    margin-right: 1.8rem;
+}
+#left {
+    position: relative;
+    top: -0.1rem;
+    margin-left: 3rem;
+}
+
+.navigation-button:hover {
+    cursor: pointer;
+}
